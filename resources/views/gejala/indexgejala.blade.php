@@ -24,7 +24,7 @@
                 <td class="mr-3">
                     <a href="/gejala/{{$value->id}}" class="btn btn-info" >Show </a>
                     <a href="/gejala/{{$value->id}}/edit" class="btn btn-primary" >Edit </a>
-                    <a href="/gejala{{$value->id}}" class="btn btn-danger" data-confirm-delete="true" >Delete </a>
+                    <a href="/gejala/{{$value->id}}" class="btn btn-danger" data-confirm-delete="true" >Delete </a>
                 </td>
             </tr>
             @empty

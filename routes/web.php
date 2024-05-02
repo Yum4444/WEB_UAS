@@ -23,8 +23,9 @@ Route::get('/gejala', [GejalaController::class,'index']);
 Route::post('/gejala', [GejalaController::class,'gejala']);
 Route::get('/tambahgejala', [GejalaController::class, 'tambahgejala']);
 Route::get('/gejala/{gejala_id}', [GejalaController::class, 'show']);
-Route::PUT('/editpelanggan', [GejalaController::class,'edit']); 
-
+Route::get('/gejala/{gejala_id}/edit', [GejalaController::class,'edit']);
+Route::put('/gejala/{gejala_id}', [GejalaController::class,'update']);
+Route::delete('/gejala/{gejala_id}', [GejalaController::class,'destroy']);
 
 
 Auth::routes();

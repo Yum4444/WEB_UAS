@@ -7,10 +7,16 @@ use RealRashid\SweetAlert\Facades\Alert;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
+use function Laravel\Prompts\confirm;
+
 class GejalaController extends Controller
 {
     public function index()
     {
+        $title = 'Peringatan!';
+        $text = 'Apakah Anda yakin ingin menghapus?';
+        $icon = 'Question';
+        confirmDelete($title, $text);
         $gejala = DB::table('gejala')->get();
         return view('gejala.indexgejala', compact('gejala'));
     }
@@ -45,7 +51,7 @@ class GejalaController extends Controller
 
     public function edit($id) {
         $gejala = DB::table('gejala')->find($id);
-        return view('gejala.editgejala', compact('gejala'));
+        return view('gejala.editpelanggan', compact('gejala'));
     }
 
     public function update(Request $request, $id)
@@ -67,6 +73,12 @@ class GejalaController extends Controller
         Alert::success('Success', 'Data Berhasil di Update');
 
 
+        return redirect('/gejala');
+    }
+
+    public function destroy($id) {
+        $gejala = DB::table('gejala')->where('id', $id)->delete();
+        Alert::success('Success', 'Data Berhasil Di Hapus');
         return redirect('/gejala');
     }
 
