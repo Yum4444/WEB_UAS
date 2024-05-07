@@ -11,6 +11,9 @@ use function Laravel\Prompts\confirm;
 
 class GejalaController extends Controller
 {
+
+
+    //CRUD nya masih menggunakan query builder ya
     public function index()
     {
         $title = 'Peringatan!';
@@ -18,8 +21,11 @@ class GejalaController extends Controller
         $icon = 'Question';
         confirmDelete($title, $text);
         $gejala = DB::table('gejala')->get();
-        return view('gejala.indexgejala', compact('gejala'));
+
+        $showmenu = auth()->user()->isAdmin();
+        return view('gejala.indexgejala', compact('gejala', 'showmenu'));
     }
+
     public function tambahgejala()
     {
         return view('gejala.tambahgejala');

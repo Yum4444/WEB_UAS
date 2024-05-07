@@ -122,7 +122,7 @@
                         Login
                       </a>
                       <a href="/register" class="btn-2">
-                        Daftar
+                        Register
                       </a>
                     </div>
                   </div>

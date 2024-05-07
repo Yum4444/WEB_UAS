@@ -15,6 +15,10 @@
             <span>Dashboard</span></a>
     </li>
     <!-- Divider -->
+    
+    {{-- jika menu ini di tampilkan untuk khusus login sebagai admin --}}
+    @if($showmenu)
+
     <hr class="sidebar-divider">
     <li class="nav-item active">
         <a class="nav-link" href="/gejala">
@@ -23,6 +27,8 @@
     </li>
     <!-- Divider -->
     <hr class="sidebar-divider my-0">
+        
+    @endif
     <!-- Nav Item - Dashboard -->
     
     

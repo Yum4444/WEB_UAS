@@ -42,4 +42,9 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
+    //membuat method / variabel dengan nama isAdmin untuk memanggil kolom role nya admin yang digunakan pada adminmiddleware
+    public function isAdmin() {
+        return $this->role === "admin";
+    }
 }
