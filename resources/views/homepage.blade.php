@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Spering</title>
+  <title>Glowies</title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="{{ asset('spering-html/spering-html/css/bootstrap.css') }}" />
@@ -33,7 +33,7 @@
           <a class="navbar-brand" href="index.html">
             <img src="images/logo.png" alt="" />
             <span>
-              Spering
+              Glowies
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -110,12 +110,12 @@
                   <div class="detail-box">
                     <h1>
                       You Can <br>
-                      Hire Freelancer <br>
+                      Make Your Own Beauty <br>
                       Here
                     </h1>
                     <p>
-                      It is a long established fact that a reader will be distracted by
-                      the readable content of a page
+                      Facial health involves skincare practices like cleansing, moisturizing, and sun protection to maintain clean, hydrated, and protected skin. 
+                      A healthy lifestyle and skincare routine can achieve radiant facial skin, boosting confidence.
                     </p> 
                     <div class="btn-box">
                       <a href="/login" class="btn-1">
@@ -222,11 +222,11 @@
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                Best Experinced Freelancer Here
+                Start caring about your health here
               </h2>
             </div>
             <p>
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+              Start caring about your health here" is a rallying call to prioritize one's well-being, encompassing physical, mental, and emotional dimensions. It's an invitation to embark on a journey of self-care and holistic wellness.
             </p>
             <div class="btn-box">
               <a href="" class="btn-1">
@@ -261,7 +261,7 @@
           </div>
           <div class="detail-box">
             <h5>
-              Design & Arts
+              Cleansing
             </h5>
           </div>
         </div>
@@ -271,7 +271,7 @@
           </div>
           <div class="detail-box">
             <h5>
-              Web Development
+              Hydration
             </h5>
           </div>
         </div>
@@ -281,7 +281,7 @@
           </div>
           <div class="detail-box">
             <h5>
-              SEO Markting
+              Acne Care
             </h5>
           </div>
         </div>
@@ -291,7 +291,7 @@
           </div>
           <div class="detail-box">
             <h5>
-              Video Edting
+              Sun Protection
             </h5>
           </div>
         </div>
@@ -301,7 +301,7 @@
           </div>
           <div class="detail-box">
             <h5>
-              Logo Design
+              Anti-Aging
             </h5>
           </div>
         </div>
@@ -311,7 +311,7 @@
           </div>
           <div class="detail-box">
             <h5>
-              Game Design
+              Specialized Care
             </h5>
           </div>
         </div>
@@ -335,10 +335,10 @@
       </div>
       <div class="detail-box">
         <h2>
-          About Spering Company
+          About Glowies Company
         </h2>
         <p>
-          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If youThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you
+          The company aims to assist its customers in achieving healthy, glowing, and well-cared-for skin through high-quality products and expert consultations.
         </p>
         <a href="">
           Read More
@@ -359,7 +359,7 @@
             <div class="detail-box">
               <div class="heading_container">
                 <h2>
-                  Work Freelaner Has Done
+                  Taking care of facial skin offers numerous advantages
                 </h2>
               </div>
               <div class="tab_container">
@@ -372,7 +372,7 @@
                       $250 Million
                     </h5>
                     <h3>
-                      Paid to Freelancers
+                      Healthy Skin
                     </h3>
                   </div>
                 </div>
@@ -385,7 +385,7 @@
                       2 Million
                     </h5>
                     <h3>
-                      Paid Invoices
+                      Radiant Skin
                     </h3>
                   </div>
                 </div>
@@ -398,7 +398,7 @@
                       700,000
                     </h5>
                     <h3>
-                      Worldwide Freelancer
+                      Smoother Skin Texture
                     </h3>
                   </div>
                 </div>
@@ -411,8 +411,8 @@
                       98%
                     </h5>
                     <h3>
-                      Customer <br>
-                      Satisfaction Rate
+                      Skin <br>
+                      Refreshment
                     </h3>
                   </div>
                 </div>
@@ -464,10 +464,21 @@
               <div class="carousel-item active">
                 <div class="detail-box">
                   <h4>
-                    John Hissona
+                    Brigitte Vallery
                   </h4>
                   <p>
-                    passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If youThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in s
+                    Visiting the facial health clinic was a game-changer for me. From the moment I stepped in, I felt welcomed and cared for. The staff were incredibly knowledgeable and took the time to understand my skin concerns before recommending personalized treatments. After just a few sessions, I noticed a significant improvement in my skin's texture and appearance. 
+                  </p>
+                  <img src="{{ asset('spering-html/spering-html/images/quote.png')}}" alt="">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="detail-box">
+                  <h4>
+                    Allana Maheswaraa
+                  </h4>
+                  <p>
+                    Visiting the facial health clinic was a game-changer for me. From the moment I stepped in, I felt welcomed and cared for. The staff were incredibly knowledgeable and took the time to understand my skin concerns before recommending personalized treatments. After just a few sessions, I noticed a significant improvement in my skin's texture and appearance. 
                   </p>
                   <img src="{{ asset('spering-html/spering-html/images/quote.png')}}" alt="">
                 </div>
@@ -478,18 +489,7 @@
                     John Hissona
                   </h4>
                   <p>
-                    passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If youThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in s
-                  </p>
-                  <img src="{{ asset('spering-html/spering-html/images/quote.png')}}" alt="">
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="detail-box">
-                  <h4>
-                    John Hissona
-                  </h4>
-                  <p>
-                    passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If youThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in s
+                    Visiting the facial health clinic was a game-changer for me. From the moment I stepped in, I felt welcomed and cared for. The staff were incredibly knowledgeable and took the time to understand my skin concerns before recommending personalized treatments. After just a few sessions, I noticed a significant improvement in my skin's texture and appearance. 
                   </p>
                   <img src="{{ asset('spering-html/spering-html/images/quote.png')}}" alt="">
                 </div>
@@ -621,7 +621,7 @@
                     </div>
                     <div class="detail-box">
                       <h6>
-                        demo@gmail.com
+                        glowies@gmail.com
                       </h6>
                     </div>
                   </a>
@@ -654,7 +654,7 @@
     <div class="container">
       <p>
         &copy; <span id="displayDate"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
+        <a href="https://html.design/">Glowies Team</a>
       </p>
     </div>
   </footer>

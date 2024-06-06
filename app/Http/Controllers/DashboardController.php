@@ -11,6 +11,6 @@ class DashboardController extends Controller
     {
         // variabel showmenu untuk mempersingkat pemanggilan role admin
         $showmenu = auth()->user()->isAdmin(); // nanti di masing" setiap menu ditambahkan perintah script code iini
-        return view('pages.dashboard', ['showmenu' => $showmenu]);
+        return view('pages.dashboard', compact('showmenu'));
     }
 }
