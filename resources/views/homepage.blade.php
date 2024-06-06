@@ -520,7 +520,7 @@
           <div class="info_logo">
             <img src="{{ asset('spering-html/spering-html/images/logo.png')}}" alt="" />
             <span>
-              Spering
+              Glowies
             </span>
           </div>
           <div class="social_box">
@@ -530,13 +530,13 @@
             <a href="#">
               <img src="{{ asset('spering-html/spering-html/images/twitter.png')}}" alt="">
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/fahmi-ihfa-7450292b2/">
               <img src="{{ asset('spering-html/spering-html/images/linkedin.png')}}" alt="">
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/zfkryh_/">
               <img src="{{ asset('spering-html/spering-html/images/instagram.png')}}" alt="">
             </a>
-            <a href="#">
+            <a href="https://www.youtube.com/@yumnaasaajidah2630">
               <img src="{{ asset('spering-html/spering-html/images/youtube.png')}}" alt="">
             </a>
           </div>
@@ -633,7 +633,7 @@
                     </div>
                     <div class="detail-box">
                       <h6>
-                        Call +01 1234567890
+                        Call +62 85848158960
                       </h6>
                     </div>
                   </a>

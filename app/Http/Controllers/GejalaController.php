@@ -10,6 +10,10 @@ class GejalaController extends Controller
 
     public function index()
     {
+        $title = 'Peringatan!';
+        $text = 'Apakah anda yakin ingin menghapus?';
+        $icon = "Question";
+        confirmDelete($title, $text);
         $gejala = DB::table('gejala')->get();
         $showmenu = auth()->user()->isAdmin(); // Pastikan fungsi isAdmin() tersedia di model User Anda
         return view('gejala.indexgejala', compact('gejala', 'showmenu'));
